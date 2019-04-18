@@ -1,0 +1,1031 @@
+
+
+html,body{
+    width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+ 
+}
+
+body {
+    margin-top: 0px;
+    padding: 0;
+    font-size: 100%;
+    color: #000;
+    width: 125em;
+
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center; 
+    background-image: url(/static/website/bc.JPG);
+    height: 100vh;
+    z-index: -9;
+    
+}
+
+#career-interests{
+    padding-top: 1em;
+    background-size: cover;
+    background-position: center; 
+    background-image: url(/static/website/bc2.JPG);
+  
+}
+
+
+@import url('https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css');
+
+.item {
+    color: #666;
+    background: #333;
+    height: 25em;
+    line-height: 10px;
+    /* Align the text vertically center. */
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+
+}
+
+.item img {
+  width: 400vh;
+  height: auto;
+
+}
+.carousel {
+    margin-top: 18em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    border: 0px solid green;
+    
+}
+.carousel-control {
+    top: 50%;
+
+    /* border 3px, size 40px */
+    border: 3px solid #000000;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+
+    width: 50px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/* cancel background image gradient */
+ .carousel-control.left-flat {
+    right: auto;
+    left: 15px;
+}
+/* override background image gradient */
+ .carousel-control.right-flat {
+    right: 15px;
+    left: auto;
+}
+
+
+
+/*
+.carousel {
+    padding-top: 0px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    
+}
+/* Since positioning the image, we need to help out the caption */
+/*.carousel-caption {
+  z-index: 10;
+}*/
+
+/* Declare heights because of positioning of img element */
+/*.carousel .item {
+  height: 50vh;
+  background-color:#bbb;
+  object-fit: contain;
+  
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+
+}*/
+
+
+/*.carousel-container-selector {
+    height: 20px;
+
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display:flex;
+}*/
+
+/*.carousel,
+.item,
+.active {
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.slide-images-selector {
+     width: 100%;
+     object-fit: contain; // or cover, check out the difference
+}*/
+
+
+#header {
+
+    background-image: url(/static/website/main.gif);
+ 
+    
+    font-family: 'Shift', sans-serif;
+    background-position: center;
+    
+    height: 15vh;
+    margin-top: 0;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    z-index: 10;
+
+    
+}
+#header h2 {    
+    font-size: 3em;
+    position: relative;
+    top: 0.3em;
+    left: 0em;
+    display: inline;
+    margin-top: 0;
+    color: #000000;
+    float: right;
+
+}
+#header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 3.1em;
+    left: 13em;
+    color: #000000;
+    float: right;
+}    
+
+
+
+
+.img-responsive{display:block;height:150;max-width:100%}
+
+
+/* Main content */
+.main {
+  margin-top: 2em; /* Add a top margin to avoid content overlay */
+}
+
+/*#carousel {
+  width:50%;
+  margin: 0 auto;
+  z-index: 1;
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;
+  border: solid green 2px;
+}*/
+
+
+
+.header {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 5em;
+    top: 10em;
+    padding: 0em 1em;
+    line-height: 2em;
+    background: #d0d637;
+    color: #933;
+    overflow: hidden;
+    z-index: 12;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0em;
+    opacity: 1;
+    border-top: solid #163b42 1em;
+    border-bottom: solid grey 1px;
+
+}
+
+.header a:link, .header a:visited {
+    color: #000000;
+}
+
+.header a:focus , .header a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0em 0em 1em 0em;
+    padding-bottom: .6em;
+    padding-top: .4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: #257742;
+}
+
+
+h2 {
+    font-size: 2.2em;
+    margin: 0.5em 1em .6em 0em;
+    color: #857;
+}
+
+h2.centered {
+    margin: 1.2em 2em .6em 2em;
+}
+
+h2.subhead {
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin: .6em 1.0em .8em 0em;
+    color: #285d91;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: bold;                     /* vertical alignment */
+     /* precise centering; see link below */
+}
+
+h5 {
+    font-size: 1.2em;
+    margin: .8em 1.6em .6em 0em;
+    color: #88818e;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 1.2em;
+    color: #857;
+    font-weight: bold;
+
+}
+
+ 
+
+#user-tools {
+    float: right;
+    padding-top: 1.0em;
+    padding-right:1em;
+    margin: 0 0 0 1em;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration:none !important;
+    font-weight: bold;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.6;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 1000px;
+}
+.header a.logo{
+  float: left;
+  padding-top: 1.0em;
+  padding-left:0.5em;
+  margin: 0 0 0 1em;
+  font-weight: 300;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration:none !important;
+  font-weight: bold;
+}
+.row{
+
+  justify-content: space-between;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  
+
+}
+.thumbnail{
+  background-color: #c6e08f;
+}
+.thumbnail h3{
+  color: #285d91;
+  text-align: center;
+  padding-top: .5em;
+}
+
+
+
+}
+#blank{
+  float: left;
+}
+#news {
+    float: right;
+    width: 180px;
+
+    position: relative;
+}
+
+hr{
+    border-color: #b4b6ba;
+}
+
+#boxoffice {
+    width: 45em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    background: #c6e08f;
+    margin-left: 2.6em;
+    margin-bottom: 2em;
+}
+#edu{
+    width: 22em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: right;
+    margin-left: 2em;
+    background: #c6e08f;
+    margin-bottom: 2em;
+}
+#honors{
+    width: 22em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: right;
+    margin-left: 2em;
+    background: #c6e08f;
+    margin-bottom: 2em;
+
+}
+
+#leadership {
+    width: 45em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    background: #c6e08f;
+    margin-left: 2em;
+    margin-bottom: 2em;
+
+}
+
+.message{
+  background: #f2ecda;
+  border-radius: .5em;
+  border: solid green 1px;
+}
+.subject{
+  background: #f2ecda;
+  border: solid green 1px;
+}
+.email{
+  background: #f2ecda;
+  border: solid green 1px;
+}
+
+button[type=submit]{
+    background:#f2ecda;
+    color: #f2ecda;
+    font-weight: bold;
+    border:0 none;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
+    border: solid green 1px;
+
+}
+
+/* Tablet Landscape
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+Tabled Portrait 
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}*/
+
+
+img { max-width: 100%; }
+
+@media screen and (max-width: 600px) {
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    margin-top: 0px;
+    padding: 0;
+    font-size: 100%;
+    color: #000;
+    width: 80%;
+
+    height: auto;
+    background: #fff;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    
+}
+
+.item {
+    color: #666;
+    background: #333;
+    height: 25em;
+    line-height: 5px;
+    /* Align the text vertically center. */
+    font-size: 0.5em;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+
+}
+
+.item img {
+  width: 400vh;
+  height: auto;
+
+}
+.carousel {
+    margin-top: 12em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    
+}
+.carousel-control {
+    top: 50%;
+
+    /* border 3px, size 40px */
+    border: 3px solid #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+
+    width: 30px;
+    height: 32px;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/* cancel background image gradient */
+ .carousel-control.left-flat {
+    right: auto;
+    left: 15px;
+}
+/* override background image gradient */
+ .carousel-control.right-flat {
+    right: 15px;
+    left: auto;
+}
+
+    
+    
+#header {
+
+    background-image: url(/static/website/main.gif);
+    width: 100%;
+
+    font-family: 'Shift', sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    margin-top: 0;
+}
+
+#header h2 {    
+    font-size: 1.3em;
+    position: absolute;
+    top: 0.8em;
+    display: inline;
+    margin-top: 0;
+    color: #000000;
+    float: center;
+
+}
+#header p {
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    left: 0em;
+    top: 2.5em;
+    color: #000000;
+    float: none;
+}    
+
+
+ 
+#user-tools {
+    float: right;
+    padding-top: 1.0em;
+    padding-right:1.2em;
+    margin: 0 0 0 1em;
+    font-weight: 300;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: bold;
+}
+
+    
+.header {
+    width: auto;
+    height: 3.5em;
+    top:7em;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    line-height: 1.5em;
+    background: #fff;
+    color: #933;
+    overflow: hidden;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+    border-top: solid #857 1em;
+    border-bottom: solid grey 1px;
+    
+}
+
+.header a:link, .header a:visited {
+    color: #000000;
+    font-size:0.7em;
+}
+
+.header a:focus , .header a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0em 0em 1em 0em;
+    padding-bottom: .6em;
+    padding-top: .4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-align: center;
+    font-size: 2em;
+    color: #257742;
+}
+
+
+h2 {
+    font-size: 1.7em;
+    margin: 0.5em 1em .6em 0em;
+    color: #857;
+}
+
+h2.centered {
+    margin: 1.2em 2em .6em 2em;
+}
+
+h2.subhead {
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: .6em 1.0em .8em 0em;
+    color: #285d91;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: .7em;
+    color: #fff;
+    font-weight: bold;                     /* vertical alignment */
+     /* precise centering; see link below */
+}
+
+h5 {
+    font-size: .7em;
+    margin: .8em 1.6em .6em 0em;
+    color: #88818e;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: .7em;
+    color: #857;
+    font-weight: bold;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 1000px;
+}
+
+#boxoffice {
+    width: 30em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    background: #eee;
+    margin-left: 0em;
+    margin-bottom: 2em;
+}
+
+#edu{
+    width: 22em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    margin-left: 0em;
+    background: #eee;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+#honors{
+    width: 22em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    margin-left: 0em;
+    background: #eee;
+    margin-bottom: 2em;
+
+}
+
+#leadership {
+    width: 30em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    background: #eee;
+    margin-left: 0em;
+    margin-bottom: 2em;
+
+}
+
+}
+
+@media screen and (min-width:601px) and (max-width: 1000px) {
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    margin-top: 0px;
+    padding: 0;
+    font-size: 100%;
+    color: #000;
+    width: 80%;
+
+    height: auto;
+    background: #fff;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    
+}
+
+.item {
+    color: #666;
+    background: #333;
+    height: 30em;
+    line-height: 5px;
+    /* Align the text vertically center. */
+    font-size: 0.5em;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+
+}
+
+.item img {
+  width: 400vh;
+  height: auto;
+
+}
+.carousel {
+    margin-top: 12em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    
+}
+.carousel-control {
+    top: 50%;
+
+    /* border 3px, size 40px */
+    border: 3px solid #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+
+    width: 30px;
+    height: 32px;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/* cancel background image gradient */
+ .carousel-control.left-flat {
+    right: auto;
+    left: 15px;
+}
+/* override background image gradient */
+ .carousel-control.right-flat {
+    right: 15px;
+    left: auto;
+}
+
+    
+    
+#header {
+
+    background-image: url(/static/website/main.gif);
+    width: 100%;
+
+    font-family: 'Shift', sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 7vh;
+    margin-top: 0;
+}
+
+#header h2 {    
+    font-size: 1.3em;
+    position: absolute;
+    top: 0.8em;
+    display: inline;
+    margin-top: 0;
+    color: #000000;
+    float: center;
+
+}
+#header p {
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    left: 0em;
+    top: 2.5em;
+    color: #000000;
+    float: none;
+}    
+
+
+ 
+#user-tools {
+    float: right;
+    padding-top: 1.0em;
+    padding-right:1.2em;
+    margin: 0 0 0 1em;
+    font-weight: 300;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: bold;
+}
+
+    
+.header {
+    width: auto;
+    height: 3.5em;
+    top:5em;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    line-height: 1.5em;
+    background: #fff;
+    color: #933;
+    overflow: hidden;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+    border-top: solid #857 1em;
+    border-bottom: solid grey 1px;
+    
+    
+}
+
+.header a:link, .header a:visited {
+    color: #000000;
+    font-size:0.7em;
+}
+
+.header a:focus , .header a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0em 0em 1em 0em;
+    padding-bottom: .6em;
+    padding-top: .4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-align: center;
+    font-size: 2em;
+    color: #257742;
+}
+
+
+h2 {
+    font-size: 1.7em;
+    margin: 0.5em 1em .6em 0em;
+    color: #857;
+}
+
+h2.centered {
+    margin: 1.2em 2em .6em 2em;
+}
+
+h2.subhead {
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: .6em 1.0em .8em 0em;
+    color: #285d91;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: .7em;
+    color: #fff;
+    font-weight: bold;                     /* vertical alignment */
+     /* precise centering; see link below */
+}
+
+h5 {
+    font-size: .7em;
+    margin: .8em 1.6em .6em 0em;
+    color: #88818e;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: .7em;
+    color: #857;
+    font-weight: bold;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 1000px;
+}
+
+#boxoffice {
+    width: 30em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    background: #eee;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+#edu{
+    width: 22em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    margin-left: 2em;
+    background: #eee;
+    margin-bottom: 2em;
+}
+#honors{
+    width: 22em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    margin-left: 2em;
+    background: #eee;
+    margin-bottom: 2em;
+
+}
+
+#leadership {
+    width: 30em;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid green 0px;
+    float: left;
+    background: #eee;
+    margin-left: 2em;
+    margin-bottom: 2em;
+
+}
+
+}
+
+
+

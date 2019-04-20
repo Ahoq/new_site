@@ -2,7 +2,7 @@
 
 html{
     width: 100%;
-    
+    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -255,7 +255,7 @@ hr{
 }
 
 #intro{
-    padding-bottom: 1em;padding-right: 3em;padding-top: 0em;padding-left: 2em;
+    padding-bottom: 6em;padding-right: 3em;padding-top: 0em;padding-left: 2em;
 }
 
 #EDUCATION{

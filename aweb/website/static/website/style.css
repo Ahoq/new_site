@@ -32,6 +32,7 @@ body {
     background-size: cover;
     background-position: center; 
     padding-bottom: 2em;
+
     
 }
 
@@ -89,6 +90,7 @@ h2 {
     font-size: 2.2em;
     margin: 0.5em 1em .6em 0em;
     color: #857;
+    font-family: 'Corben', Georgia, Times, serif;
 }
 
 h2.centered {
@@ -104,6 +106,7 @@ h3 {
     margin: .6em 1.0em .8em 0em;
     color: #285d91;
     font-weight: bold;
+    font-family: 'Karla', Georgia, Times, serif;
 }
 
 h4 {
@@ -151,7 +154,7 @@ h6 {
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 1000em;
+  padding-top: 300px;
 }
 .header a.logo{
   float: left;
@@ -169,13 +172,18 @@ h6 {
 .row{
 
   justify-content: space-between;
-  padding-left: 1.0em;
-  padding-right: 1.0em;
+
+  padding: 0em;
+  margin:0em;
   
 
 }
 .thumbnail{
   background-color: #eee;
+  box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
+  margin-right: auto;
+  margin-left: auto;
+  width: 96%;
 }
 .thumbnail h3{
   color: #285d91;
@@ -188,12 +196,6 @@ h6 {
 }
 #blank{
   float: left;
-}
-#news {
-    float: right;
-    width: 180px;
-
-    position: relative;
 }
 
 hr{
@@ -211,6 +213,7 @@ hr{
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 2em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
 }
 #edu{
     width: auto;
@@ -224,6 +227,7 @@ hr{
     background: #eee;
     margin-bottom: 2em;
     margin-top: 0em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
 }
 #honors{
     width: auto;
@@ -237,7 +241,7 @@ hr{
     background: #eee;
     margin-bottom: 2em;
     margin-top: 0em;
-
+    box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
 }
 
 #leadership {
@@ -251,20 +255,54 @@ hr{
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 2em;
-
+    box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
 }
 
 #intro{
     padding-bottom: 6em;padding-right: 3em;padding-top: 0em;padding-left: 2em;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 20px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #eee;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
 }
 
 #EDUCATION{
-    padding-top: 0em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+#hon{
     padding-bottom: 3em;
 }
 
 #exp{
-    padding-top: 0em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+#ld{
+    padding-bottom: 3em;
+}
+
+#intro img {
+    margin-right: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0.3em 0.3em 0.3em 0.3em #bfbdbd;
+}
+
+
+h1,h4, h5, h6 {
+    font-family: 'Karla', Georgia, Times, serif;
+}
+h1,h2,h3,h4, h5, h6 {
+    line-height: 1.2;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
 
@@ -293,6 +331,7 @@ hr{
     margin-top: 0;
     color: #000000;
     float: right;
+    font-family: 'Karla', Georgia, Times, serif;
 
 }
 #header p {
@@ -303,6 +342,7 @@ hr{
     left: 13em;
     color: #000000;
     float: right;
+    font-family: 'Karla', Georgia, Times, serif;
 }
 
 .nav-footer {

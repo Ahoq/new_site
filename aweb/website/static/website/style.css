@@ -33,7 +33,7 @@ body {
     padding-bottom: 2em;
     margin-right: auto;
     margin-left: auto;
-    float:center;
+    position:center;
 
     
 }

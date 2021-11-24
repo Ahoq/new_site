@@ -18,8 +18,8 @@ body {
    
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
-    background-size: cover;
-    background-position: center; 
+    /* background-size: cover;
+    background-position: center;  */
     /*background-image: url(/static/website/bc.JPG);*/
     height: auto;
     z-index: -9;
@@ -192,7 +192,7 @@ h6 {
 
 
 
-}
+
 #blank{
   float: left;
 }
@@ -262,6 +262,7 @@ hr{
     border: 1px solid #eee;
     border-radius: 20px;
     padding: 20px;
+    /* font-size: 15px; */
     width: 95%;
     margin-right: auto;
     margin-left: auto;
@@ -345,6 +346,13 @@ p, div {
 }
 
 .nav-footer {
+    /* position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #163b42;
+    color: white;
+    text-align: center; */
     clear: both;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -356,6 +364,7 @@ p, div {
     left: 0px;
     margin-left: 0px;
     padding-left: 0px;
+    bottom: 0px;
 }
 
 
@@ -428,4 +437,133 @@ ul.social-icons {
 
 
 
+.section-heading {
+    text-align:center;
+    color:#102C4E;
+    margin-top: 50px;
+    margin-bottom:70px;
+    font-size: 35px;
+  }
 
+
+.column-4 {
+    /* float: right; */
+  /* text-align: center;
+    width: 21%; */
+    padding: 10px;
+    margin:20px;
+    height: 250px;
+}
+
+
+
+/* Color and Images for Project Containers  */
+
+.project-1 {
+  background: url('../images/project-left.jpeg');
+  background-size: cover;
+}
+
+.project-2 {
+  background-color:white;
+}
+
+.project-3 {
+  background-color:#209BFF;
+}
+
+.project-4 {
+  background-color:#112d4e;
+}
+
+.project-5 {
+    background-color:#F9F7F7;
+  }
+  
+.project-6 {
+background-color:#209BFF;
+}
+
+.project-7 {
+    background-color:#ffffff00;
+}
+
+.project-8 {
+/* background: url('../images/project-right.jpeg'); */
+background-size: cover;
+}
+
+.project-text {
+  text-align:center;
+  font-size:50px;
+}
+
+
+/* Hover classes for individual project boxes */
+
+.project-2:hover {
+    background-color:#FEDE00;
+  }
+  
+  .project-3:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-4:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-5:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-6:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-7:hover {
+     background-color: #FEDE00;
+  }
+
+
+
+  .container {
+    display: flex;
+  }
+  
+  .item {
+    flex-grow: 1;
+    height: 100px;
+  }
+  
+  .item + .item {
+    margin-left: 2%;
+  }
+
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #eee;
+  }
+  .card {
+    flex: 0 0 450px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }

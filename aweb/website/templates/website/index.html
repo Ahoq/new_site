@@ -34,7 +34,7 @@
 
 <div id="header">
     <h2>Adnan Hoq</h2>
-    <p>Developer and Student in Computer Science</p>
+    <p>Lead Data Scientist and Disciple of Camus</p>
 </div>
 <!-- Navbar Holder -->
 <div id="container">
@@ -78,32 +78,96 @@ function myFunction() {
   <img src="/static/website/ds3_1n.jpg" style="width: 24em; float: left;height: auto;border-radius:50%;">
    <hr><hr>
     <p>
-        <h1>“Hello there, stranger! Welcome to my site!!
-        My name is Adnan Hoq. I am a graduating senior at St. Joseph's College NY. I am a student of mathematics and computer science. I am also an experienced full stack developer and data analyst. My current objective is to secure an entry-level position as a full stack developer or a data analyst. My future objectives include getting a P.h.D in Data Science, working as an accomplished programmer for one of the three big tech companies, creating my own startup, editing a feature length Hollywood film; the list goes on and on! I am determined to get most of the items on this list checked off before I'm 35. Aside from my academic and professional pursuits, I frequently indulge myself in the art of filmmaking. I like to explore and harness my skills and creativity as an amateur screenwriter and editor every now and then. Additionally, I enjoy going to arthouse theaters and watching indie films.”</h1>
-            
+      <h1 style="padding: 9px;line-height:1.5em;font-size: 18px;">“Hello there, stranger! Welcome to my site!!
+        My name is Adnan Hoq. I am currently working as Tarifica's Lead Data Scientist. I completed my BS in Mathematics & Computer Science from St. Joseph's College NY with a 4.0 GPA. I was the class Valedictorian.
+        I am also an experienced full stack developer and data analyst. My future objectives include earning a PhD in Computer Science while working in the fields of computational social science, data management and ethics, and machine learning.
+        Other future goals include writing and editing a feature length Hollywood film, becoming an elite home chef by day, and a master mixologist by night; the list goes on and on!
+        I am determined to get most of the items on this list checked off before I'm 35. Aside from my academic and professional pursuits, I frequently indulge myself in the art of filmmaking.
+        I like to explore and harness my skills and creativity as an amateur screenwriter and editor every now and then. Additionally, I enjoy going to broadway shows and watching indie films.
+        Also, love reading books. Currently, stuck in an existentialist rabbit hole.”</h1>
     </p>
     <hr><hr>
 </div>
-<hr>
-      <div id = "career-interests">
-        <center><h2>CAREER INTERESTS</h2></center>
+
+  <h2 class="section-heading">Projects</h2>
+
+  
+  <main class="cards">
+    <article class="card">
+      <a href="https://github.com/Ahoq/graphThink" target="_blank">
+        <img src="/static/website/mlrn.jpeg" style="width: auto; height: auto;" >
+          <h3 style="font-size: 25px; text-align: center;">GraphThink</h3>
+          <p style="padding: 9px;line-height:1.5em;font-size: 15px;">
+            A webapp that allows users to store insights and keywords as nodes and relationships in a Neo4j database. Users can also visualize the stored insights as nodes and relationships using
+            vis.js. Moreover, users are able to run different graph algorithms on the stored data. I used python’s Flask framework for the webapp with HTML5 and CSS for the frontend.
+
+          </p>
+        </a>
+    </article>
+    <article class="card">
+      <a href="https://github.com/Ahoq/gdp_dashboard" target="_blank">
+        <img src="/static/website/web.jpeg" style="width: auto; height: auto;" >
+         <h3 style="font-size: 25px; text-align: center;">GDP Dashboard</h3>
+         <p style="padding: 9px;line-height:1.5em;font-size: 15px;">
+          A dashboard to breakdown and visualize different countries’ GDPs and related factors in multiple interactive visualization. I created the dashboard using python’s DASH framework with HTML5
+          and CSS for the frontend.
+         </p>
+        </a>
+    </article>
+    <article class="card">
+      <a href="https://github.com/Ahoq/worldwide_box_office" target="_blank">
+        <img src="/static/website/soft.jpeg" style="width: auto; height: auto;" >
+         <h3 style="font-size: 25px; text-align: center;">WBO</h3>
+         <p style="padding: 9px;line-height:1.5em;font-size: 15px;">
+          A custom open-source python package, available on Mac and Windows machine. This is a command line tool (using python’s click package). The package scrapes box office mojo's Worldwide
+           Box Office data using BeatifulSoup and Selenium. The package allows the user to download box office data for any range of years with all the available variables in a .csv file.
+           User can also produce interactive html plots using this package. For visualization and plotting the package uses python’s plotly.js library.
+         </p>
+        </a>
+    </article>
+    <article class="card">
+      <a href="https://github.com/msr-ds3/stop-question-frisk" target="_blank">
+        <img src="/static/website/data.jpeg" style="width: auto; height: auto;" >
+         <h3 style="font-size: 25px; text-align: center;">Stop, Question, Frisk</h3>
+         <p style="padding: 9px;line-height:1.5em;font-size: 15px;">
+          A replication and extension project from the Microsoft Research Data Science Summer School class of 2019. A data analysis replication study of a widely-cited academic paper on racial bias
+          in police use of force. Findings from the research paper were replicated by employing data wrangling, visualization, and modeling
+          techniques using tidyverse, ggplot2, data.table, modelr, ROCR in R.
+         </p>
+      </a>
+        
+    </article>
+    
+  </main>
+
+      <!-- <div id = "career-interests">
+        
           <div class="row">
 
           <div class="col-md-3">
             <div class="thumbnail">
-              <a href="https://www.forbes.com/sites/bernardmarr/2017/05/04/what-is-machine-learning-a-complete-beginners-guide-in-2017/#11b3af9e578f" target="_blank">
+              <a href="https://github.com/Ahoq/graphThink" target="_blank">
               <img src="/static/website/mlrn.jpeg" style="width: auto; height: auto;" >
-                <h3>Machine Learning</h3>
+                <h3 style="font-size: 25px;">GraphThink</h3>
+                <p style="padding: 7px;line-height:1.5em;font-size: 15px;">
+                  A webapp that allows users to store insights and keywords as nodes and relationships in a Neo4j database. Users can also visualize the stored insights as nodes and relationships using
+                  vis.js. Moreover, users are able to run different graph algorithms on the stored data. I used python’s Flask framework for the webapp with HTML5 and CSS for the frontend.
+
+                </p>
               </a>
             </div>
             
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3"">
             <div class="thumbnail">
-              <a href="https://www.forbes.com/sites/forbescommunicationscouncil/2017/06/16/whats-your-website-development-strategy-think-mainly-mobile/#67998bb07345" target="_blank">
+              <a href="https://github.com/Ahoq/gdp_dashboard" target="_blank">
               <img src="/static/website/web.jpeg" style="width: auto; height: auto;" >
-               <h3 >Web Development</h3>
+               <h3 style="font-size: 25px;">GDP Dashboard</h3>
+               <p style="padding: 7px;line-height:1.5em;font-size: 15px;">
+                A dashboard to breakdown and visualize different countries’ GDPs and related factors in multiple interactive visualization. I created the dashboard using python’s DASH framework with HTML5
+                and CSS for the frontend.
+               </p>
               </a>
           </div>
           
@@ -111,18 +175,28 @@ function myFunction() {
 
           <div class="col-md-3">
             <div class="thumbnail">
-              <a href="https://www.forbes.com/sites/valleyvoices/2018/08/24/software-developer-revolution/#4e07650d1e4a" target="_blank">
+              <a href="https://github.com/Ahoq/worldwide_box_office" target="_blank">
               <img src="/static/website/soft.jpeg" style="width: auto; height: auto;" >
-               <h3>Software Engineering</h3>
+               <h3 style="font-size: 25px;">WBO</h3>
+               <p style="padding: 7px;line-height:1.5em;font-size: 15px;">
+                A custom open-source python package, available on Mac and Windows machine. This is a command line tool (using python’s click package). The package scrapes box office mojo's Worldwide
+                 Box Office data using BeatifulSoup and Selenium. The package allows the user to download box office data for any range of years with all the available variables in a .csv file.
+                 User can also produce interactive html plots using this package. For visualization and plotting the package uses python’s plotly.js library.
+               </p>
               </a>
             </div>
           </div>
 
           <div class="col-md-3">
             <div class="thumbnail">
-              <a href="https://www.forbes.com/sites/louiscolumbus/2018/01/29/data-scientist-is-the-best-job-in-america-according-glassdoors-2018-rankings/#31888f9c5535" target="_blank">
+              <a href="https://github.com/msr-ds3/stop-question-frisk" target="_blank">
               <img src="/static/website/data.jpeg" style="width: auto; height: auto;" >
-               <h3>Data Science</h3>
+               <h3 style="font-size: 25px;">Stop, Question, Frisk</h3>
+               <p style="padding: 7px;line-height:1.5em;font-size: 15px;">
+                A replication and extension project from the Microsoft Research Data Science Summer School class of 2019. A data analysis replication study of a widely-cited academic paper on racial bias
+                in police use of force. Findings from the research paper were replicated by employing data wrangling, visualization, and modeling
+                techniques using tidyverse, ggplot2, data.table, modelr, ROCR in R.
+               </p>
               </a>
             </div>
             
@@ -130,25 +204,24 @@ function myFunction() {
 
         </div>
 
-      </div>
-     
-<hr>
-
-      <footer id = "nav-footer" class="nav-footer">
-        <center>
-        <div class="footer-social-icons">
-          <h4 class="_14">Follow me on</h4>
-          <ul class="social-icons">
-              <li><a href="https://www.facebook.com/adnanbinhaque" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/adnan-hoq" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/Ahoq" target="_blank" class="social-icon"> <i class="fa fa-github"></i></a></li>
-          </ul>
-        </div>
-        </center>
+      </div> -->
 
 
-        
-      </footer>
+  <footer id = "nav-footer" class="nav-footer">
+    <center>
+    <div class="footer-social-icons">
+      <h4 class="_14">Follow me on</h4>
+      <ul class="social-icons">
+          <li><a href="https://www.facebook.com/adnanbinhaque" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/adnan-hoq" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/Ahoq" target="_blank" class="social-icon"> <i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+    </center>
+
+
+    
+  </footer>
 
       
       
